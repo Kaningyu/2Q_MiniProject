@@ -20,7 +20,5 @@ public:
 	void AddFont(std::wstring fontName, IDWriteFontCollection1* pFontCollection, IDWriteTextFormat** ppTextFormat);
 
 	IDWriteTextFormat* FindFont(const std::wstring& keyName);
-
-	
 };
 

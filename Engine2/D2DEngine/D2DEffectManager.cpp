@@ -153,7 +153,6 @@ void D2DEffectManager::CreatePointSpecularEffect(std::wstring _KeyName, ID2D1Bit
 	Effects.insert(std::make_pair(_KeyName, newEffect));
 }
 
-
 // 일단 혹시 몰라서 남겨놓음 사용할 일이 있을가 과연...
 //	void D2DEffectManager::CreateDistantDiffuseEffect(std::wstring _KeyName, ID2D1Bitmap* _Bitmap)
 //	{
